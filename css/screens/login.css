@@ -1,11 +1,11 @@
 .welcome-header {
-  margin: 90px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .welcome-header__title {
+  margin-top: 90px;
   margin-bottom: 20px;
   font-size: 25px;
 }
@@ -16,7 +16,9 @@
 #login-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0px 30px;
+  height: 500px;
 }
 
 #login-form input {
